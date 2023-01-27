@@ -1,0 +1,82 @@
+*{margin: auto ;}
+.menu{position: relative;}
+.navbar{padding-left: 620px; padding-bottom: 300px;list-style-type: none;text-align: center; display: flex; justify-content:space-between;margin: 26px 360px; font-family:'Roboto',arial,;}
+.navlogo{display: inline; position: absolute;left: 20.5%;}
+li{font-size:15px;font-weight: 300 ;}
+.navlink1{color: #00B39B;}
+.navlink{color:#ABABAB ;}
+.navlink:hover{color: #00B39B;}
+.li1{color: #00B39B;}
+.li {color:hsla(0,0%,67%,.7);}
+ul li a:hover{color: #00B39B;}
+ul li:hover .département{ display: block; position: absolute;background: #fff;margin-top: 15px;margin-left: -15px;}
+ul li:hover .départemennt{display: block;margin: 10px;}
+.dropdown { display: none;}
+.iconDP{position:absolute; left: 48.5%; top:115px;}
+.h1 { font-size:34px;font-weight: 300; position: absolute; left: 525px; top: 190px; color: #00B39B; letter-spacing: -0.3px ;font-family: 'Work Sans',arial,sans-serif;}
+.col {display: block;font-size: 16px;color: #747474; line-height: 28px;font-family: 'roboto';}
+.col-1{padding-right: 850px; margin-left: 300px; position: absolute;top: 290px;left: 50px;width: 477px; height: 140px;}
+.col-2{padding-left: 850px; position: absolute;top: 290px; right:-55px; margin-right:  405px;width: 477px; height: 140px; }
+select {width: 100%;background: transparent;border: 0;border-radius: 0;}
+.container{display: flex; margin: 350px; border-radius: 10px ; position: absolute;bottom: -280px; right: 2px; color: white; justify-content: center; }
+.patients{background-color:#00CCB1 ;height: 345px;width: 311px;border-radius: 10px;margin: 10px;}
+.doctors{background-color: #3D83DF;height: 345px;width: 311px;border-radius: 10px;margin: 10px;}
+.clinics{background-color: #1B2734;height: 345px;width: 311px;border-radius: 10px;margin: 10px;}
+.icon{padding-left:15px;padding-top:10px; margin: 20px;}
+.text{margin: 3px;padding-left: 30px;font-size: 26px;letter-spacing: -0,3px;font-family: 'Work Sans',arial,sans-serif;}
+.txt{font-size: 24px;font-weight: 300;letter-spacing: -0,3px; margin: 25px; padding-left: 12px;font-family: 'Work Sans',arial,sans-serif}
+.pays{background-color: #00CCB1;padding-left: 33px;font-size: 19.2px;color:  white; text-decoration: underline;font-family:'Roboto',arial}
+.pays2 {background-color: #3D83DF;padding-left: 33px;font-size: 19.2px; color:  white; text-decoration: underline}
+.spécialistes {background-color: #1B2734;padding-left: 33px;padding-top: 2px;font-size: 19.2px;color:  white; text-decoration: underline;}
+.choisir{color:  white; text-decoration: underline;}
+.nous{font-size: 26px; font-weight: 300; letter-spacing: -0.3px; color: #00B39B ; position: absolute; top: 905px; left: 350px; width: 279px ;font-family: 'Work Sans',arial }
+li {list-style-type: none;}
+svg:hover{fill: #00B39B;}
+img:hover{filter: none; opacity: 1;}
+.brands{position: absolute ; top: 20px; right: 1666px;}
+svg {fill:hsla(0,0%,67%,.7);width:"125" ;height:"20" ;font-weight: 100px;}
+.imgbrands { filter: invert(73%) sepia(1%) saturate(0%) hue-rotate(20deg) brightness(94%) contrast(90%);; width:"125"; height:"20";opacity: .55;}
+.znany {position: absolute; top: 890px; left: 695px; }
+.doctoralia {position: absolute; top: 890px; left: 850px}
+.doktortarvimi {position: absolute; top: 890px; left: 1005px ;}
+.znamy {position: absolute; top: 955px; left:695px}
+.miodottore {position: absolute; top: 890px; left: 1170px}
+.jameda {position: absolute; top: 477px; left: 431px;}
+.tuotempo {position: absolute; top: 477px; left: 505px;}
+.gipo {position: absolute; top: 469px; left: 585px;}
+.clinicloud {position: absolute; top: 469px; left: 623px}
+.feegowclinic {position: absolute; top: 1020px; left: 700px}
+.stats{background-color: #e5faf8; width: 100%; height: 600px; position: absolute; top:  1150px ;overflow: hidden;}
+.logo-hidden{width: 450px; height: 400px; position: absolute; left: 215px ; top: 310px;}
+.plateforme {font-size: 34px; font-weight: 300; line-height: 44px; color: #00B39B; margin: 80px;padding-left: 270px; width: 400px; height:132px ; display: block;font-family: 'Work Sans',arial}
+.bureau{font-size: 14px; color: #747474; line-height: 24px; width: 415px;position: absolute; left:350px;bottom: 305px;font-family: 'roboto',arial}
+.carré {display: block; width: 228px; height: 250px; background-color: white; border-radius: 10px;}
+.stat-icon{display: inline; padding-left: 95px; padding-top: 35px;}
+.h2{text-align: center ;font-size: 24px;font-weight: 300;color: #00B39B; padding-top: 18px; width: 198px;font-family: 'Work Sans',arial}
+.stat-p{text-align: center; font-size: 13px; color: #747474; line-height: 17px; padding-top: 18px;font-family: 'roboto',arial; margin: 5px;}
+.leader {position: absolute; top: 60px;left: 830px;}
+.rendez-vous{position: absolute; top: 20px;left: 1080px;}
+.malades {position: absolute; top: 330px;left: 830px;}
+.médecins{position: absolute; top: 300px;left: 1080px;}
+.office-h1{font-size: 30px;font-weight: 300;line-height: 39px;letter-spacing: -0,3px ; color: #00B39B; text-align: center;width: 460px; height: 117px; padding-top: 1475px;font-family: 'Work Sans',arial}
+.office-p {font-size:14px ;line-height: 24px;color: #747474; text-align: center;width: 460px;height: 96px;font-family: 'roboto',arial}
+.office__inner {box-shadow: 0 5px 10px 0 transparent; transition: .2s ease 0s;background: #fff; border: 1px solid rgba(0,0,0,.03); border-radius: 6px;   overflow: hidden;max-width: 311px;z-index: 2;position: relative;display: block; color: #747474;}
+.offices_contenu .office { width: 33.33%;float: left;}
+.offices_contenu{width: 999px;height: 1110px; padding-top: 90px;font-family: 'roboto',arial}
+.office{width:331px ;height:370px ;}
+figure {display: block;margin-block-start: 1em;margin-block-end: 1em;margin-inline-start: 40px; margin-inline-end: 40px;margin: 0;}
+.office__image img {display: block;margin: 0 auto;}
+img {overflow: clip;height: auto;border: 0;}
+.office__desc {  font-size:18px;font-weight: 400; line-height:30px; padding:20px 20px 20px 20px; width: 309px;height: 70px;}
+span.btn.btn--small {display: block;font-size: 10px;line-height: 10px;letter-spacing: 0.4px;position: relative;right: 40px;padding: 0%;width: 145px;height: 31px;font-weight: 700; letter-spacing: 0.4px; text-align: center;text-transform: uppercase; vertical-align: middle; outline: rgb(255,255,255); border-top-left-radius: 4px ;border-top-right-radius: 4px; border-bottom-left-radius:4px ;border-bottom-right-radius: 4px; radius: 4px ;}
+.office .btn {float: right;}
+.btn:hover {color: #fff; background-color: #1662c6;}
+span{width: 103px;height: 30px;font-size: 10px;}
+a {text-decoration: none;color: #3d83df;outline: 0;transition: all .2s ease 0s;}
+.btn { display: inline-block;vertical-align: middle;position: relative; outline: 0; border: 0;border-radius: 4px;background: #3d83df;line-height: 1em; color: #fff;  font-weight: 700;letter-spacing: .04em;font-size: .75rem;text-align:center;text-decoration: none;text-transform: uppercase; transition: all .2s ease 0s;}
+.voir {position: absolute; top: 10px; left: 15px ;}
+.maintenant{text-align: center;font-size: 30px;letter-spacing: -0.3px;line-height: 39px;font-weight: 300;width: 520px; height: 72px;padding-top: 120px;font-family: 'Work Sans',arial}
+button{background-color: #3D83DF;color:#fff;font-size:12px;font-weight: 700;letter-spacing: 0.2px;width:289px ;height:41px;text-align: center;margin-left: 690px;margin-top: 40px; border-radius: 4Px; border: 0;font-family: 'roboto',arial}
+button:hover{color: #fff; background-color: #1662c6;}
+.mainfooter{text-align: center;font-size: 12px;line-height: 16px; color: #ABABAB;margin-top: 20Px;font-family: 'roboto',arial}
+.section_inner{width: 1015px;height: 105px; text-align: center;font-size: 12px; color: #ABABAB;line-height: 16px}
